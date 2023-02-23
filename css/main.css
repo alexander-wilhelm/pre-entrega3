@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilo de las tarjeta de collection */
+.tarjeta_propiedades {
+  width: 400px;
+  padding: 3rem;
+  background-color: #c7d6d1;
+  border-radius: 10px; }
+  .tarjeta_propiedades .img_head {
+    height: 100%; }
+
+/* estilo de las tarjetas */
+.card_info {
+  padding-top: 3rem; }
+
+.card:hover {
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.411); }
+
+.boton_conocer_mas {
+  text-decoration: none;
+  color: #ffffff; }
+
+/* estilos oficina */
+.oficina {
+  text-align: center;
+  padding-top: 3rem; }
+
+@media (max-width: 768px) {
+  .mapa_desktop {
+    display: none; } }
+
+/* estilos del footer */
+footer {
+  margin-top: 4rem;
+  height: 500px;
+  text-align: center; }
+
+.social_media {
+  margin-top: 20px; }
+
+.instagram {
+  display: inline-block; }
+
+.logos {
+  width: 30px; }
+
+/* estilos de franquicias */
+.franquicias_head {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/franquicias.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .franquicias_head .franquicias_title {
+    font-size: 5rem;
+    text-align: center;
+    color: #ffffff; }

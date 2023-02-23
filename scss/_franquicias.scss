@@ -1,0 +1,16 @@
+/* estilos de franquicias */
+.franquicias_head{
+    height: 500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/franquicias.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .franquicias_title{
+        font-size: 5rem;
+        text-align: center;
+        color: #ffffff;     
+    }
+    
+}
